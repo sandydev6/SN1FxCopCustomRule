@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Rules FriendlyName="IDG.Rules">
+
+  <Rule TypeName="AvoidUsingVirtualMethods" Category="Performance" CheckId="SN1001">
+
+    <Name>CustomRule</Name>
+
+    <Description>Rule that will identify if the target assembly contains virtual methods. </Description>
+
+    <Url></Url>
+
+    <Resolution>Avoid using virtual methods.</Resolution>
+
+    <Email>santhanaraman.sivasankaran@outlook.com</Email>
+
+    <MessageLevel Certainty="100">CriticalWarning</MessageLevel>
+
+    <FixCategories>NonBreaking</FixCategories>
+
+    <Owner />
+
+  </Rule>
+
+</Rules>
+
